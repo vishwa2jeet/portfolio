@@ -1,3 +1,4 @@
+'use client'
 import {HeroSection} from "./homePage/HeroSection";
 import { Box} from "@chakra-ui/react";
 

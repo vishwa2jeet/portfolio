@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { Box, chakra, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import ProjectCard from "./ProjectCard";
@@ -20,24 +20,24 @@ export const HeroSection = () => {
       px={6}
       py={4}
     >
-      <MotionDiv
+      {/* <MotionDiv
         whileHover={{
           scale: 1.02,
           transition: { duration: 0.5 },
         }}
         whileTap={{ scale: 0.9 }}
-      >
+      > */}
         <AboutSection />
-      </MotionDiv>
+      {/* </MotionDiv>
       <MotionDiv
         whileHover={{
           scale: 1.02,
           transition: { duration: 0.5 },
         }}
         whileTap={{ scale: 0.9 }}
-      >
+      > */}
         <ProjectSection />
-      </MotionDiv>
+      {/* </MotionDiv>
       <MotionDiv
       w={'full'}
         whileHover={{
@@ -45,11 +45,11 @@ export const HeroSection = () => {
           transition: { duration: 0.5 },
         }}
         whileTap={{ scale: 0.9 }}
-      >
+      > */}
         <TechnicalSkills />
-      </MotionDiv>
+      {/* </MotionDiv> */}
     </VStack>
   );
 };
 
-const MotionDiv = motion(chakra.div);
+// const MotionDiv = motion(chakra.div);
