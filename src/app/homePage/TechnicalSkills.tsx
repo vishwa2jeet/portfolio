@@ -18,7 +18,7 @@ const TechnicalSkills = () => {
          >
          <Text fontSize={"2rem"} fontWeight={"bold"}>Technical Skills</Text>
          <Flex gap={2}>
-           {technicalSkillsData.map(({label}, index) => {
+           {technicalSkillsData.map(({label}) => {
                return(
                    <Text key={label} fontSize={"1rem"} >{label}{' '},</Text>
                )

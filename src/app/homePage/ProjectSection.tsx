@@ -19,7 +19,7 @@ const ProjectSection = () => {
         <Text fontSize={"2rem"} fontWeight={"bold"}>
           Projects
         </Text>
-        <ProjectCard
+         <ProjectCard
           projectName={"Panchang – Horoscope & Astrology Insights"}
           projectLink={"https://panchangweb-avi.vercel.app/"}
           description={`Panchang is a web application that provides daily horoscope readings,
@@ -30,6 +30,7 @@ const ProjectSection = () => {
           arryData={panchangData}
           techStack={"Next.js, React, TypeScript, Tailwind CSS, Chakra UI"}
         />
+        
         <ProjectCard
           projectName={"A2Z Test"}
           projectLink={"https://a2ztest.in/"}
